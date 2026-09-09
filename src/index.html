@@ -10,15 +10,17 @@
   <div class="container">
     <header>
       <h1>PES University</h1>
-      <p class="subtitle">One of the top engineering universities in Karnataka</p>
+      <p class="subtitle">One of the top engineering universities in Karnataka — Software Engineering & DevOps Workshop</p>
     </header>
 
     <!-- Navigation Tabs -->
     <nav class="tabs" id="nav-tabs">
       <button class="tab-btn active" onclick="showTab('pes')">PES University</button>
       <button class="tab-btn" onclick="showTab('se')">About me</button>
-      <button class="tab-btn" onclick="showTab('cicd')">Contact Us</button>
-      <button class="tab-btn" onclick="showTab('instructable')">Admissions</button>
+      <button class="tab-btn" onclick="showTab('cicd')">CI/CD Pipeline</button>
+      <button class="tab-btn" onclick="showTab('instructable')">Instructable</button>
+      <button class="tab-btn" onclick="showTab('contact')">Contact Us</button>
+      <button class="tab-btn" onclick="showTab('admissions')">Admissions</button>
       <!-- STUDENTS WILL ADD "About Me" TAB HERE -->
     </nav>
 
@@ -35,13 +37,23 @@
       </div>
 
       <div id="cicd" class="tab-content">
+        <h2>CI/CD Pipeline</h2>
+        <p>Continuous Integration (CI) tests code automatically. Continuous Deployment (CD) ships code to production.</p>
+      </div>
+
+      <div id="instructable" class="tab-content">
+        <h2>Instructable: GitHub Actions & GitPages</h2>
+        <p>This website is automatically built and published using GitHub Actions workflows targeting GitHub Pages.</p>
+      </div>
+
+      <div id="contact" class="tab-content">
         <h2>Contact Us</h2>
         <p>Ring Road Campus: +91 80 2672 1983</p>
         <p>Admissions Helpline: 080-10-297297</p>
         <p>Email: admissions@pes.edu</p>
       </div>
 
-      <div id="instructable" class="tab-content">
+      <div id="admissions" class="tab-content">
         <h2>Admissions</h2>
         <p>Admissions to PES University's undergraduate engineering programs are based on KCET and JEE Main scores; other programs follow the PES Entrance Process.</p>
         <p>For details, reach out to admissions@pes.edu or call 080-10-297297.</p>
